@@ -36,3 +36,95 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  max-width: 100%;
+  background-image: url(https://websitedemos.net/flower-shop-04/wp-content/uploads/sites/1414/2023/10/hero-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.row-alignment {
+  display: grid;
+  grid-column-gap: 20px;
+  align-items: center;
+  grid-template-columns: 1fr auto 1fr;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+.categories-details {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  line-height: 80px;
+  /* grid-column-gap: 20px;
+  align-items: center;
+  grid-template-columns: 100px 100px 100px 100px; */
+}
+.title {
+  font-size: 26px;
+  text-align: left;
+  font-family:'Times New Roman', Times, serif;
+}
+.menu {
+  padding: 0 1em;
+  font-size: 18px;
+  font-family:'Times New Roman', Times, serif;
+  list-style: none;
+}
+.cart-icon {
+  font-size: 20px;
+  text-align: end;
+  color: rgb(225, 129, 11)
+}
+.site-content {
+  min-height: 500px;
+  color: white;
+}
+.s-con-inner {
+  margin-left: 191.667px;
+  margin-right: 191.667px;
+  padding-block-start: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.heading-title {
+  font-size: large;
+  font-weight: 500;
+  font-family: 'Heebo', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* .e-img-content {
+
+} */
+
+.element-box-title {
+  font-size: 70px;
+  font-weight: 500;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0;
+}
+.element-box-description {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.element-button-wrapper {
+  text-decoration: none;
+  color: white;
+}
+ .element-button-text {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-top: 18px;
+  padding-right: 30px;
+  padding-bottom: 18px;
+  padding-left: 30px;
+  background-color: orange;
+ }

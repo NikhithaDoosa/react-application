@@ -1,11 +1,13 @@
 import './App.css';
+import Carousel from './components/Carousel';
 // import Welcome from './components/Welcome';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <Carousel />
+      {/* <Counter /> */}
       {/* <Welcome /> */}
     </div>
   );
