@@ -54,6 +54,37 @@
   text-align: center;
   background: #fef7f5;
 }
+.carousel-item2 {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-block-start: 100px;
+  padding-block-end: 100px;
+}
+.elementor2-content-inner {
+  display: flex;
+  gap: 0px 80px;
+}
+.elementor2-wrapper-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-block-start: 0px;
+  padding-block-end: 0px;
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+}
+.elementor2-widget-image-container {
+  display: flex;
+  gap: 0px 20px;
+  align-items: flex-end;
+}
+.carousel-item2 img {
+  border-radius: 180px 180px 10px 10px;
+}
 .home-page {
   max-width: 100%;
   background-image: url(https://websitedemos.net/flower-shop-04/wp-content/uploads/sites/1414/2023/10/hero-bg.jpg);
@@ -143,7 +174,7 @@
   padding-right: 30px;
   padding-bottom: 18px;
   padding-left: 30px;
-  background-color: #ff6e4e;;
+  background-color: #ff6e4e;
  }
  .element-content-inner {
   display: flex;
@@ -184,3 +215,87 @@
   color: #9ba5ae;
   font-size: 16px;
 }
+.elementor2-widget-heading-title {
+  margin: 0;
+  color: #ff6e4e;
+  font-size: 14px;
+  font-family: 'Heebo', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  text-align: start;
+}
+.elementor2-image-box {
+  text-align: start;
+}
+.elementor2-image-box-title {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 1.15em;
+  margin-bottom: 20px;
+}
+.elementor2-image-box-description {
+  margin: 0;
+  color: #6b6262;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400
+}
+.elementor2-button-wrapper {
+  text-decoration: none;
+  color: white;
+}
+.elementor2-button-container {
+  padding-top: 15px;
+  text-align: start;
+}
+ .elementor2-button-text {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-top: 18px;
+  padding-right: 30px;
+  padding-bottom: 18px;
+  padding-left: 30px;
+  background-color: #ff6e4e;
+ }
+ .carousel-item3 {
+   padding-left: 40px;
+   padding-right: 40px;
+   background: #fef7f5;
+ }
+ .elementor3-content-inner {
+  padding-block-start: 100px;
+  padding-block-end: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+ }
+ .products {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 20px;
+  list-style: none;
+  padding: 0px;
+ }
+ .products li img {
+  width: 100%;
+  height: auto;
+ }
+ .products li {
+  padding-bottom: 1.2em;
+  margin-bottom: 2.5em;
+ }
+ .individual-products {
+  margin-bottom: .8em;
+ }
+ .woo-product-summary {
+  padding-top: 10px;
+  padding: 0px 1.2em;
+ }
+ .screen-reader-text {
+  display: none;
+ }
