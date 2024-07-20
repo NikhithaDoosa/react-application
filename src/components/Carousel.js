@@ -167,7 +167,7 @@ class Carousel extends Component {
                   </div>
                   <div class="woo-product-summary">
                     <span class="woo-product-category">Flower </span>
-                    <a href="#">
+                    <a class="woo-loop-product__link" href="#">
                       <h2 class="woo-product__title">Custom Floral Designs</h2>
                     </a>
                     <span class="price">
@@ -201,55 +201,563 @@ class Carousel extends Component {
                   </div>
                 </li>
                 <li>
-                  <img
-                    alt=""
-                    width="300"
-                    height="300"
-                    src="flower-product-2.jpg"
-                    sizes="(max-width: 300px) 100vw, 300px"
-                  ></img>
+                  <div class="individual-products">
+                    <img
+                      alt=""
+                      width="300"
+                      height="300"
+                      src="flower-product-2.jpg"
+                      sizes="(max-width: 300px) 100vw, 300px"
+                    ></img>
+                  </div>
+                  <div class="woo-product-summary">
+                    <span class="woo-product-category">Flower </span>
+                    <a class="woo-loop-product__link" href="#">
+                      <h2 class="woo-product__title">Periwinkle Flower</h2>
+                    </a>
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            239.00
+                          </bdi>
+                        </span>
+                      </del>{" "}
+                      <span class="screen-reader-text">
+                        Original price was: $239.00.
+                      </span>
+                      <ins aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            199.00
+                          </bdi>
+                        </span>
+                      </ins>
+                      <span class="screen-reader-text">
+                        Current price is: $199.00.
+                      </span>
+                    </span>
+                  </div>
                 </li>
                 <li>
-                  <img
-                    alt=""
-                    width="300"
-                    height="300"
-                    src="flower-product-3.jpg"
-                    sizes="(max-width: 300px) 100vw, 300px"
-                  ></img>
+                  <div class="individual-products">
+                    <img
+                      alt=""
+                      width="300"
+                      height="300"
+                      src="flower-product-3.jpg"
+                      sizes="(max-width: 300px) 100vw, 300px"
+                    ></img>
+                  </div>
+                  <div class="woo-product-summary">
+                    <span class="woo-product-category">Bouquet </span>
+                    <a class="woo-loop-product__link" href="#">
+                      <h2 class="woo-product__title">
+                        Periwinkle Flowers Bouquet
+                      </h2>
+                    </a>
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            79.00
+                          </bdi>
+                        </span>
+                      </del>
+                      <span class="screen-reader-text">
+                        Original price was: $79.00.
+                      </span>
+                      <ins aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            56.00
+                          </bdi>
+                        </span>
+                      </ins>
+                      <span class="screen-reader-text">
+                        Current price is: $56.00.
+                      </span>
+                    </span>
+                  </div>
                 </li>
                 <li>
-                  <img
-                    alt=""
-                    width="300"
-                    height="300"
-                    src="flower-product-4.jpg"
-                    sizes="(max-width: 300px) 100vw, 300px"
-                  ></img>
+                  <div class="individual-products">
+                    <img
+                      alt=""
+                      width="300"
+                      height="300"
+                      src="flower-product-4.jpg"
+                      sizes="(max-width: 300px) 100vw, 300px"
+                    ></img>
+                  </div>
+                  <div class="woo-product-summary">
+                    <span class="woo-product-category">Bouquet </span>
+                    <a class="woo-loop-product__link" href="#">
+                      <h2 class="woo-product__title">Rose Flower Bouquet</h2>
+                    </a>
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            210.00
+                          </bdi>
+                        </span>
+                      </del>
+                      <span class="screen-reader-text">
+                        Original price was: $210.00.
+                      </span>
+                      <ins aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            199.00
+                          </bdi>
+                        </span>
+                      </ins>
+                      <span class="screen-reader-text">
+                        Current price is: $199.00.
+                      </span>
+                    </span>
+                  </div>
                 </li>
                 <li>
-                  <img
-                    alt=""
-                    width="300"
-                    height="300"
-                    src="flower-product-5.jpg"
-                    sizes="(max-width: 300px) 100vw, 300px"
-                  ></img>
+                  <div class="individual-products">
+                    <img
+                      alt=""
+                      width="300"
+                      height="300"
+                      src="flower-product-5.jpg"
+                      sizes="(max-width: 300px) 100vw, 300px"
+                    ></img>
+                  </div>
+                  <div class="woo-product-summary">
+                    <span class="woo-product-category">Flower </span>
+                    <a class="woo-loop-product__link" href="#">
+                      <h2 class="woo-product__title">Tulip Custom Flower</h2>
+                    </a>
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            159.00
+                          </bdi>
+                        </span>
+                      </del>
+                      <span class="screen-reader-text">
+                        Original price was: $159.00.
+                      </span>
+                      <ins aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            129.00
+                          </bdi>
+                        </span>
+                      </ins>
+                      <span class="screen-reader-text">
+                        Current price is: $129.00.
+                      </span>
+                    </span>
+                  </div>
                 </li>
                 <li>
-                  <img
-                    alt=""
-                    width="300"
-                    height="300"
-                    src="flower-product-6.jpg"
-                    sizes="(max-width: 300px) 100vw, 300px"
-                  ></img>
+                  <div class="individual-products">
+                    <img
+                      alt=""
+                      width="300"
+                      height="300"
+                      src="flower-product-6.jpg"
+                      sizes="(max-width: 300px) 100vw, 300px"
+                    ></img>
+                  </div>
+                  <div class="woo-product-summary">
+                    <span class="woo-product-category">Bouquet </span>
+                    <a class="woo-loop-product__link" href="#">
+                      <h2 class="woo-product__title">Tulip Flower</h2>
+                    </a>
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            129.00
+                          </bdi>
+                        </span>
+                      </del>
+                      <span class="screen-reader-text">
+                        Original price was: $129.00.
+                      </span>
+                      <ins aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            99.00
+                          </bdi>
+                        </span>
+                      </ins>
+                      <span class="screen-reader-text">
+                        Current price is: $99.00.
+                      </span>
+                    </span>
+                  </div>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="carousel-item4">SPECIAL OFFER</div>
+        <div class="carousel-item4">
+          <div class="elementor4-content-inner">
+            <div class="elementor4-widget-container">
+              <img
+                class="elementor4-image-box"
+                alt=""
+                width="584"
+                height="584"
+                src="special-offer-img.jpg"
+                sizes="(max-width: 584px) 100vw, 584px"
+              ></img>
+            </div>
+            <div class="elementor4-element-container">
+              <div>
+                <h6 class="elementor4-heading-title">SPECIAL OFFER</h6>
+              </div>
+              <div>
+                <h2 class="elementor4-subheading-title">
+                  Your Floral Journey Begins Here: Get 20% Off Your First Order!
+                </h2>
+              </div>
+              <div class="elementor4-button-container">
+                <a class="elementor4-button-link" href="#">
+                  <span class="elementor4-button-wrapper">
+                    <span class="elementor4-button-text">Shop Now</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item5">
+          <div class="elementor5-content-inner">
+            <div>
+              <h6 class="elementor5-heading-title">
+                BEST SELLING
+              </h6>
+            </div>
+            <div class="elementor5-image-box-wrapper">
+              <div class="elementor5-image-box-content">
+                <h2 class="elementor5-image-box-title">
+                  Blossom with the Best Our Top-Selling Flowers
+                </h2>
+                <p class="elementor5-image-box-description">
+                  Share some details here. This is Flexible section where you
+                  can share anything you want.
+                </p>
+              </div>
+            </div>
+            <div class="elementor5-widget-container">
+              <ul class="products">
+                <li>
+                  <div class="individual-products">
+                    <img
+                      alt=""
+                      width="300"
+                      height="300"
+                      src="flower-product-1.jpg"
+                      sizes="(max-width: 300px) 100vw, 300px"
+                    ></img>
+                  </div>
+                  <div class="woo-product-summary">
+                    <span class="woo-product-category">Flower </span>
+                    <a class="woo-loop-product__link" href="#">
+                      <h2 class="woo-product__title">Custom Floral Designs</h2>
+                    </a>
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            127.00
+                          </bdi>
+                        </span>
+                      </del>{" "}
+                      <span class="screen-reader-text">
+                        Original price was: $127.00.
+                      </span>
+                      <ins aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            86.00
+                          </bdi>
+                        </span>
+                      </ins>
+                      <span class="screen-reader-text">
+                        Current price is: $86.00.
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="individual-products">
+                    <img
+                      alt=""
+                      width="300"
+                      height="300"
+                      src="flower-product-2.jpg"
+                      sizes="(max-width: 300px) 100vw, 300px"
+                    ></img>
+                  </div>
+                  <div class="woo-product-summary">
+                    <span class="woo-product-category">Flower </span>
+                    <a class="woo-loop-product__link" href="#">
+                      <h2 class="woo-product__title">Periwinkle Flower</h2>
+                    </a>
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            239.00
+                          </bdi>
+                        </span>
+                      </del>{" "}
+                      <span class="screen-reader-text">
+                        Original price was: $239.00.
+                      </span>
+                      <ins aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            199.00
+                          </bdi>
+                        </span>
+                      </ins>
+                      <span class="screen-reader-text">
+                        Current price is: $199.00.
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="individual-products">
+                    <img
+                      alt=""
+                      width="300"
+                      height="300"
+                      src="flower-product-3.jpg"
+                      sizes="(max-width: 300px) 100vw, 300px"
+                    ></img>
+                  </div>
+                  <div class="woo-product-summary">
+                    <span class="woo-product-category">Bouquet </span>
+                    <a class="woo-loop-product__link" href="#">
+                      <h2 class="woo-product__title">
+                        Periwinkle Flowers Bouquet
+                      </h2>
+                    </a>
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            79.00
+                          </bdi>
+                        </span>
+                      </del>
+                      <span class="screen-reader-text">
+                        Original price was: $79.00.
+                      </span>
+                      <ins aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            56.00
+                          </bdi>
+                        </span>
+                      </ins>
+                      <span class="screen-reader-text">
+                        Current price is: $56.00.
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="individual-products">
+                    <img
+                      alt=""
+                      width="300"
+                      height="300"
+                      src="flower-product-4.jpg"
+                      sizes="(max-width: 300px) 100vw, 300px"
+                    ></img>
+                  </div>
+                  <div class="woo-product-summary">
+                    <span class="woo-product-category">Bouquet </span>
+                    <a class="woo-loop-product__link" href="#">
+                      <h2 class="woo-product__title">Rose Flower Bouquet</h2>
+                    </a>
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            210.00
+                          </bdi>
+                        </span>
+                      </del>
+                      <span class="screen-reader-text">
+                        Original price was: $210.00.
+                      </span>
+                      <ins aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            199.00
+                          </bdi>
+                        </span>
+                      </ins>
+                      <span class="screen-reader-text">
+                        Current price is: $199.00.
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="individual-products">
+                    <img
+                      alt=""
+                      width="300"
+                      height="300"
+                      src="flower-product-5.jpg"
+                      sizes="(max-width: 300px) 100vw, 300px"
+                    ></img>
+                  </div>
+                  <div class="woo-product-summary">
+                    <span class="woo-product-category">Flower </span>
+                    <a class="woo-loop-product__link" href="#">
+                      <h2 class="woo-product__title">Tulip Custom Flower</h2>
+                    </a>
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            159.00
+                          </bdi>
+                        </span>
+                      </del>
+                      <span class="screen-reader-text">
+                        Original price was: $159.00.
+                      </span>
+                      <ins aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            129.00
+                          </bdi>
+                        </span>
+                      </ins>
+                      <span class="screen-reader-text">
+                        Current price is: $129.00.
+                      </span>
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="individual-products">
+                    <img
+                      alt=""
+                      width="300"
+                      height="300"
+                      src="flower-product-6.jpg"
+                      sizes="(max-width: 300px) 100vw, 300px"
+                    ></img>
+                  </div>
+                  <div class="woo-product-summary">
+                    <span class="woo-product-category">Bouquet </span>
+                    <a class="woo-loop-product__link" href="#">
+                      <h2 class="woo-product__title">Tulip Flower</h2>
+                    </a>
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            129.00
+                          </bdi>
+                        </span>
+                      </del>
+                      <span class="screen-reader-text">
+                        Original price was: $129.00.
+                      </span>
+                      <ins aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi>
+                            <span class="woocommerce-Price-currencySymbol">
+                              $
+                            </span>
+                            99.00
+                          </bdi>
+                        </span>
+                      </ins>
+                      <span class="screen-reader-text">
+                        Current price is: $99.00.
+                      </span>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
