@@ -63,6 +63,7 @@
 .elementor2-content-inner {
   display: flex;
   gap: 0px 80px;
+  align-items: center;
 }
 .elementor2-wrapper-container {
   display: flex;
@@ -252,7 +253,7 @@
   padding-top: 15px;
   text-align: start;
 }
- .elementor2-button-text {
+.elementor2-button-text {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -262,12 +263,12 @@
   padding-bottom: 18px;
   padding-left: 30px;
   background-color: #ff6e4e;
- }
- .carousel-item3 {
+}
+.carousel-item3 {
    padding-left: 40px;
    padding-right: 40px;
    background: #fef7f5;
- }
+}
  .elementor3-content-inner {
   padding-block-start: 100px;
   padding-block-end: 100px;
@@ -296,6 +297,127 @@
   padding-top: 10px;
   padding: 0px 1.2em;
  }
+ .woo-product-category {
+  font-size: 0.85em;
+  margin-bottom: 0.5em;
+  display: block;
+  line-height: 1.3;
+  opacity: .6;
+ }
  .screen-reader-text {
   display: none;
  }
+ .woo-product__title {
+  margin: 0px;
+  font-size: 22px;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 1.15em;
+  color: #180000;
+  font-weight: 700;
+  margin-bottom: .5em;
+  padding: 0;
+  text-align:center
+ }
+ .woo-loop-product__link {
+  text-decoration: none;
+ }
+ .price bdi {
+  color: #6b6262;
+  font-weight: 700;
+ }
+ .price ins {
+  text-decoration: none;
+  color: #180000;
+  font-weight: 700;
+ }
+ .carousel-item4 {
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #180000;
+ }
+ .elementor4-content-inner {
+  padding-block-start: 100px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px 80px;
+  align-items: center;
+ }
+ .elementor4-image-box {
+  border-radius: 300px 300px 0 0;
+ }
+ .elementor4-element-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-block-start: 0px;
+  padding-block-end: 0px;
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+ }
+ .elementor4-heading-title {
+    color: #ff6e4e;
+    margin: 0px;
+    font-weight: 500;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    text-align: left;
+ }
+ .elementor4-subheading-title {
+  margin: 0px;
+  color: white;
+  font-size: 48px;
+  font-weight: 500;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 1.15em;
+  text-align: start;
+  vertical-align: baseline;
+ }
+ .elementor4-button-container {
+  padding-top: 15px;
+  text-align: start;
+ }
+ .elementor4-button-link {
+  text-decoration: none;
+  color: white;
+ }
+ .elementor4-button-text {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-top: 18px;
+  padding-right: 30px;
+  padding-bottom: 18px;
+  padding-left: 30px;
+  background-color: #ff6e4e;
+  font-size: 16px;
+ }
+ .carousel-item5 {
+  padding-left: 40px;
+  padding-right: 40px;
+  background: #fef7f5;
+}
+.elementor5-content-inner {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.elementor5-widget-container {
+  padding-top: 30px;
+}
+.elementor5-heading-title {
+    color: #ff6e4e;
+    margin: 0px;
+    font-weight: 500;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    text-align: center;
+}
