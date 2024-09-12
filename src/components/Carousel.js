@@ -758,6 +758,115 @@ class Carousel extends Component {
             </div>
           </div>
         </div>
+        <div class="carousel-item6">
+          <div class="elementor6-content-inner">
+            <div>
+              <h6 class="elementor6-heading-title">TESTIMONAIL</h6>
+            </div>
+            <div>
+              <div class="elementor6-image-box-content">
+                <h2 class="elementor6-image-box-title">Hear From Our Happy Customers</h2>
+                <p class="elementor6-image-box-description">Share some details here. This is Flexible section where you can share anything you want.</p>
+              </div>
+            </div>
+            <div class="elementor6-widget-container">
+              <div class="elementor6-container">
+                  <div class="elementor-star-rating__wrapper">
+                    <div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating">
+                      <i class="elementor-star-full"></i>
+                      <i class="elementor-star-full"></i>
+                      <i class="elementor-star-full"></i>
+                      <i class="elementor-star-full"></i>
+                      <i class="elementor-star-full"></i> 
+                      <span itemprop="ratingValue" class="elementor-screen-only">5/5</span>
+                    </div> 
+                  </div>
+                  <div class="elementor6-testimonial-content">
+                    I've been a loyal customer of Florist for years, and they never cease to amaze me. The flowers are always fresh, the arrangements are stunning, and the service is top-notch.
+                  </div>
+                  <div class="elementor-testimonial-meta-inner">
+                    <div class="elementor-testimonial-image">
+                      <img loading="lazy" decoding="async" width="64" height="64" src="https://websitedemos.net/flower-shop-04/wp-content/uploads/sites/1414/2023/10/testimonial-skip-01.jpg" class="elementor6-attachment-image" alt=""/> 
+                    </div>
+                    <div class="elementor-testimonial-details">
+                      <div class="elementor-testimonial-name">Steve Smith </div>
+                      <div class="elementor-testimonial-job">Wedding Planner</div>
+                    </div>
+                  </div>
+              </div>
+              <div class="elementor6-container">
+                  <div class="elementor-star-rating__wrapper">
+                      <div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating">
+                        <i class="elementor-star-full"></i>
+                        <i class="elementor-star-full"></i>
+                        <i class="elementor-star-full"></i>
+                        <i class="elementor-star-full"></i>
+                        <i class="elementor-star-full"></i> 
+                        <span itemprop="ratingValue" class="elementor-screen-only">5/5</span>
+                      </div> 
+                  </div>
+                  <div class="elementor6-testimonial-content">
+                    I've been a loyal customer of Florist for years, and they never cease to amaze me. The flowers are always fresh, the arrangements are stunning, and the service is top-notch.
+                  </div>
+                  <div class="elementor-testimonial-meta-inner">
+                    <div class="elementor-testimonial-image">
+                      <img loading="lazy" decoding="async" width="48" height="49" src="https://websitedemos.net/flower-shop-04/wp-content/uploads/sites/1414/2023/10/testimonial-skip-01-1.jpg" class="elementor6-attachment-image" alt=""/> 
+                    </div>
+                    <div class="elementor-testimonial-details">
+                      <div class="elementor-testimonial-name">Wade Warren</div>
+                      <div class="elementor-testimonial-job">Designer</div>
+                    </div>
+                  </div>
+              </div>
+              <div class="elementor6-container">
+                  <div class="elementor-star-rating__wrapper">
+                      <div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating">
+                        <i class="elementor-star-full"></i>
+                        <i class="elementor-star-full"></i>
+                        <i class="elementor-star-full"></i>
+                        <i class="elementor-star-full"></i>
+                        <i class="elementor-star-full"></i> 
+                        <span itemprop="ratingValue" class="elementor-screen-only">5/5</span>
+                      </div> 
+                  </div>
+                  <div class="elementor6-testimonial-content">
+                    I recently used Florist for my daughter's wedding, and I couldn't have been happier with the results. The wedding florals were breathtaking, and the team went above and beyond to bring.
+                  </div>
+                  <div class="elementor-testimonial-meta-inner">
+                    <div class="elementor-testimonial-image">
+                      <img loading="lazy" decoding="async" width="48" height="49" src="https://websitedemos.net/flower-shop-04/wp-content/uploads/sites/1414/2023/10/testimonial-skip-02-1.jpg" class="elementor6-attachment-image" alt="" /> 
+                    </div>
+                    <div class="elementor-testimonial-details">
+                      <div class="elementor-testimonial-name">Mila Kunis</div>
+                      <div class="elementor-testimonial-job">Business Owner</div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item7">
+           <div class="elementor7-content-inner">
+               <div class="elementor7-image-box">
+                <img loading="lazy" decoding="async" width="584" height="664" src="https://websitedemos.net/flower-shop-04/wp-content/uploads/sites/1414/2023/10/cta.jpg" class="attachment-full size-full wp-image-335" alt="" srcset="https://websitedemos.net/flower-shop-04/wp-content/uploads/sites/1414/2023/10/cta.jpg 584w, https://websitedemos.net/flower-shop-04/wp-content/uploads/sites/1414/2023/10/cta-264x300.jpg 264w, https://websitedemos.net/flower-shop-04/wp-content/uploads/sites/1414/2023/10/cta-400x455.jpg 400w" sizes="(max-width: 584px) 100vw, 584px" /> 
+               </div>
+               <div class="elementor7-element-container">
+                  <div>
+                    <h6 class="elementor7-heading-title">Call to action</h6> 
+                  </div>
+                  <div>
+                    <h2 class="elementor7-subheading-title">Explore Our Exquisite Floral Collections &amp; Shop Now for the Perfect Blooms</h2> 
+                  </div>
+                  <div class="elementor7-button-container">
+                    <a class="elementor7-button-link" href="#">
+                      <span class="elementor7-button-wrapper">
+                        <span class="elementor7-button-text">Shop Now</span>
+                      </span>
+                    </a>
+                  </div>
+               </div>
+           </div>
+        </div>
       </div>
     );
   }
